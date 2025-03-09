@@ -1,0 +1,65 @@
+# Project Rules for Cursor AI
+
+You are working on a Python project. Please follow these guidelines when assisting with this codebase:
+
+## Code Style and Structure
+- Write clean, well-documented Python code following PEP 8 standards
+- Use type hints when appropriate
+- Organize code into logical modules and functions
+- Favor readability over clever one-liners
+- Keep functions small and focused on single responsibilities
+- Always include descriptive comments for code blocks explaining their purpose and functionality
+- Use inline comments for complex logic or non-obvious implementations
+- Think Like a Senior Developer: Approach tasks with expertise and efficiency.
+- Commit Until Complete: Do not stop working until the feature is fully implemented.
+- Three-Step Reasoning: Analyze errors with three reasoning paragraphs before concluding.
+- Keep Answers Concise: Respond succinctly.
+- Preserve Comments: Do not delete any comments in the code.
+- State Summary: Before proceeding, summarize the current state—updated files, changes, and failures—without assumptions.
+- Unbiased Decision-Making: Write detailed arguments for both solutions before choosing the best one.
+- Refined Search Queries: Craft well-structured search queries with precise technical details.
+- Start with Uncertainty: Begin analysis with uncertainty and gain confidence gradually.
+- Beware of Red Herrings: Be cautious when summarizing search results to avoid distractions.
+- Only Necessary Steps: Break down changes into only essential steps while maintaining project structure.
+
+## Project-Specific Knowledge
+- This project is a standalone Python application
+- Prioritize modern Python practices (Python 3.7+)
+- Use virtual environments and proper dependency management
+- When suggesting libraries, prefer established ones with good maintenance
+
+## Testing and Documentation
+- Encourage test-driven development
+- Suggest docstrings for functions and classes
+- Recommend documentation updates when functionality changes
+
+## Error Handling
+- Implement appropriate error handling
+- Use specific exception types rather than catching generic exceptions
+- Provide helpful error messages
+
+## Performance
+- Be mindful of performance implications
+- Suggest optimizations when appropriate, but don't prematurely optimize
+
+## Security
+- Highlight potential security issues
+- Recommend secure coding practices
+- Pay attention to input validation and data sanitization
+
+## UI/UX (if applicable)
+- Prioritize user experience in any interface design
+- Consider accessibility in UI suggestions
+
+## Additional Guidelines
+- Minimize Code: Write concise, efficient code.
+- Commit Until Complete: Do not stop working until the feature is fully implemented.
+- Three-Step Reasoning: Analyze errors with three reasoning paragraphs before concluding.
+- Keep Answers Concise: Respond succinctly.
+- Preserve Comments: Do not delete any comments in the code.
+- State Summary: Before proceeding, summarize the current state—updated files, changes, and failures—without assumptions.
+- Unbiased Decision-Making: Write detailed arguments for both solutions before choosing the best one.
+- Refined Search Queries: Craft well-structured search queries with precise technical details.
+- Start with Uncertainty: Begin analysis with uncertainty and gain confidence gradually.
+- Beware of Red Herrings: Be cautious when summarizing search results to avoid distractions.
+- Only Necessary Steps: Break down changes into only essential steps while maintaining project structure. 
