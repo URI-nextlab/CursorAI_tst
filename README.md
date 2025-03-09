@@ -19,7 +19,6 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#live-demo">Live Demo</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#mathematical-expressions">Mathematical Expressions</a> •
@@ -39,14 +38,6 @@
 - **Conversation Export**: Download your conversation history as a text file for later reference
 - **Responsive Design**: Works smoothly on both desktop and mobile devices
 - **Enter Key Submission**: Fast, intuitive message submission with Enter key support
-
-## Live Demo
-
-Try it out: [DeepSeek R1 Interface Demo](https://example.com/demo) *(placeholder)*
-
-<div align="center">
-  <img src="https://placehold.co/600x400?text=Live+Demo+GIF&font=playfair" alt="Demo GIF" width="600px">
-</div>
 
 ## Installation
 
