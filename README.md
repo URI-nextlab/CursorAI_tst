@@ -1,18 +1,5 @@
 # DeepSeek R1 Streamlit Chat Interface
 
-<div align="center">
-
-![DeepSeek R1](https://img.shields.io/badge/DeepSeek-R1_Reasoner-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTggNmEyIDIgMCAwIDAtMi0ybC0xMiAuMDFhMiAyIDAgMCAwLTEuOTUgMS44NWwtLjAxIDEyYTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiLz48L3N2Zz4=)
-![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.32.0-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
-
-</div>
-
-<div align="center">
-  <img src="https://placehold.co/800x400?text=DeepSeek+R1+Streamlit+Interface&font=playfair" alt="DeepSeek R1 Interface Demo" width="800px">
-</div>
-
 <p align="center">
   A sleek, modern dark-themed GUI for interacting with the DeepSeek Reasoner model, featuring real-time equation rendering, code highlighting, and advanced reasoning visualization.
 </p>
@@ -92,10 +79,6 @@
    - Toggle the reasoning process display using the sidebar control
    - Download your conversation using the Export button
    - Clear history to start a fresh conversation
-
-<div align="center">
-  <img src="https://placehold.co/600x400?text=Usage+Demo+GIF&font=playfair" alt="Usage Demo" width="600px">
-</div>
 
 ## Mathematical Expressions
 
