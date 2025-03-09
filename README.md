@@ -1,5 +1,13 @@
 # DeepSeek R1 Streamlit Chat Interface
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.32.0-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+
+</div>
+
 <p align="center">
   A sleek, modern dark-themed GUI for interacting with the DeepSeek Reasoner model, featuring real-time equation rendering, code highlighting, and advanced reasoning visualization.
 </p>
