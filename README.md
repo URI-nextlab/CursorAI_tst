@@ -44,7 +44,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/URI-nextlab/proj2.git
+   git clone https://github.com/URI-nextlab/CursorAI_tst.git
    cd proj2
    ```
 
@@ -102,42 +102,38 @@ The DeepSeek R1 model excels at handling mathematical problems with clear, step-
 ## Examples
 
 ### Code Generation
+Below is an example of how you can ask the model to generate a Python function (for example, a Fibonacci calculator) and then copy the highlighted (syntax‑highlighted) code snippet from the chat.
+
 ```python
-# Example: Ask the model to generate a Python function to calculate Fibonacci numbers
+# Example prompt: "Generate a Python function to compute Fibonacci numbers (iterative version)."
+# The model's response (with syntax highlighting) might look like:
+# def fibonacci(n):
+#     a, b = 0, 1
+#     for _ in range(n):
+#         a, b = b, a + b
+#     return a
 ```
 
 ### Mathematical Reasoning
-```
-# Example: The model's step-by-step approach to solving complex math problems
-```
+The DeepSeek R1 model excels at solving math problems (for example, quadratic equations, derivatives, or probability questions) and renders the reasoning (using LaTeX) in real‑time. For instance, if you ask "Solve x² + 6x + 9 = 0", the model's step‑by‑step reasoning (with rendered equations) will be displayed in the chat.
 
 ### Logical Analysis
-```
-# Example: How the model breaks down and analyzes logical arguments
-```
+You can also ask the model to analyze logical arguments (for example, "If all A are B, and all B are C, then all A are C. Is this valid?"). The model's detailed breakdown (with logical steps) is rendered (using markdown and LaTeX) in the chat.
 
-## Technical Details
+## Troubleshooting & FAQ
 
-- **Frontend**: Streamlit web application framework
-- **Backend**: DeepSeek API (OpenAI-compatible client)
-- **Model**: DeepSeek Reasoner with chain-of-thought capabilities
-- **Equation Rendering**: LaTeX via Streamlit's native MathJax support
-- **Code Highlighting**: Pygments syntax highlighter
-- **Conversation Management**: Session-based state management
+- **Q: My API key isn't recognized.**  
+  A: Ensure that your `.env` file (in the project root) contains a valid `DEEPSEEK_API_KEY` (and that you've activated your virtual environment).  
+- **Q: The reasoning process (or LaTeX equations) isn't rendering.**  
+  A: Check that your browser supports MathJax (or that you're using a modern browser) and that your prompt (or model's output) is formatted correctly (using LaTeX delimiters).  
+- **Q: How do I export my conversation?**  
+  A: Use the "Export" button (or a similar UI control) provided in the interface to download your chat history as a text file.
 
-## Contributing
+## Acknowledgments & Credits
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- This project was built by URI NextLab (see the [LICENSE](LICENSE) file for copyright details).
+- We thank the DeepSeek team (and the [DeepSeek Platform](https://platform.deepseek.com/)) for providing the reasoning model.
+- Thanks also to the Streamlit, Pygments, and MathJax communities for their excellent tools.
 
 ---
 
